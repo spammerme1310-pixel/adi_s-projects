@@ -306,9 +306,9 @@ st.success("✔ Analysis completed successfully.")
 st.info("📘 These insights can be enhanced further with real-time market and customer behavior data.")
     
 
-    st.title("📌 Strategic Recommendations")
+st.title("📌 Strategic Recommendations")
 
-    st.markdown("""
+st.markdown("""
     ### 🔍 Key Observations
 
     While price, year, and kilometers driven play a major role in car valuation,
@@ -356,6 +356,7 @@ st.info("📘 These insights can be enhanced further with real-time market and c
     """)
 
 st.success("✔ actionable insights generated.")
+
 
 
 
