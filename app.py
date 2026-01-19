@@ -276,7 +276,7 @@ with st.expander("📘 Click to View FAQ", expanded=False):
         """)
 
 
-    st.markdown("""
+st.markdown("""
     ### 🔍 Summary of Findings
 
     Based on the exploratory data analysis of the used cars dataset, the following
