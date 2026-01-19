@@ -355,6 +355,7 @@ st.markdown("""
     in the used car ecosystem.
     """)
 
-    st.success("✔ actionable insights generated.")
+st.success("✔ actionable insights generated.")
+
 
 
