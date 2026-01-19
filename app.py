@@ -13,7 +13,7 @@ def load_raw():
 
 @st.cache_data
 def load_cleaned():
-    return pd.read_csv("cars_cleaned.csv")
+    return pd.read_csv("Cars_cleaned.csv")
 
 raw = load_raw()
 clean = load_cleaned()
@@ -356,4 +356,5 @@ with st.expander("📘 Click to View FAQ", expanded=False):
     """)
 
     st.success("✔ actionable insights generated.")
+
 
