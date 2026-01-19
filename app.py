@@ -302,8 +302,8 @@ st.markdown("""
     informed decision-making in the automotive resale market.
     """)
 
-    st.success("✔ Analysis completed successfully.")
-    st.info("📘 These insights can be enhanced further with real-time market and customer behavior data.")
+st.success("✔ Analysis completed successfully.")
+st.info("📘 These insights can be enhanced further with real-time market and customer behavior data.")
     
 
     st.title("📌 Strategic Recommendations")
@@ -356,6 +356,7 @@ st.markdown("""
     """)
 
 st.success("✔ actionable insights generated.")
+
 
 
 
