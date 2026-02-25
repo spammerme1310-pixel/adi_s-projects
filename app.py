@@ -200,9 +200,9 @@ else:
              clean.select_dtypes(include=np.number)
              .corr()["Price"].sort_values(ascending=False).index[1])
     st.markdown("---")
-st.header("❓ Frequently Asked Questions (FAQ)")
+st.header(" Frequently Asked Questions (FAQ)")
 
-with st.expander("📘 Click to View FAQ", expanded=False):
+with st.expander(" Click to View FAQ", expanded=False):
 
     question = st.selectbox(
         "Select a question",
@@ -277,7 +277,7 @@ with st.expander("📘 Click to View FAQ", expanded=False):
 
 
 st.markdown("""
-    ### 🔍 Summary of Findings
+    ### Summary of Findings
 
     Based on the exploratory data analysis of the used cars dataset, the following
     key insights were observed:
@@ -287,29 +287,29 @@ st.markdown("""
     - **Fuel type and transmission** significantly affect pricing patterns.
     - Certain **brands consistently command higher resale value** in the market.
 
-    ### 📊 Market Observations
+    ###  Market Observations
     - The used car market in India is **growing rapidly** and surpassing new car sales.
     - Buyers prefer **lower mileage and newer models**.
     - Petrol and diesel vehicles dominate the resale market.
 
-    ### 🎯 Business Implications
+    ###  Business Implications
     - Dealers can optimize pricing using historical trends.
     - Buyers can identify value-for-money vehicles.
     - Sellers can time resale for maximum return.
 
-    ### 🚀 Final Note
+    ###  Final Note
     This dashboard demonstrates how **data-driven insights** can support
     informed decision-making in the automotive resale market.
     """)
 
-st.success("✔ Analysis completed successfully.")
-st.info("📘 These insights can be enhanced further with real-time market and customer behavior data.")
+st.success(" Analysis completed successfully.")
+st.info("These insights can be enhanced further with real-time market and customer behavior data.")
     
 
-st.title("📌 Strategic Recommendations")
+st.title(" Strategic Recommendations")
 
 st.markdown("""
-    ### 🔍 Key Observations
+    ###  Key Observations
 
     While price, year, and kilometers driven play a major role in car valuation,
     there are several **soft and qualitative factors** that significantly influence
@@ -324,7 +324,7 @@ st.markdown("""
     4. **Vehicle Age**: Very old car models depreciate heavily, reducing both
        demand and resale value.
 
-    ### 🚗 Brand & Market Trends
+    ###  Brand & Market Trends
 
     5. **Popular Brands**: Brands like **Maruti, Hyundai, and Honda** dominate the
        low-budget used car segment due to affordability and reliability.
@@ -332,7 +332,7 @@ st.markdown("""
        activity in the used car market. This trend should be validated using
        data from additional demographic regions.
 
-    ### 📊 Future Data Strategy
+    ###  Future Data Strategy
 
     7. **Clustering Approach**: Segmenting data by **location and car type** can help
        in building multiple predictive models tailored to specific markets.
@@ -341,21 +341,22 @@ st.markdown("""
     9. **Fuel Trends**: With rising petrol prices, **diesel cars** are increasingly
        preferred, offering better resale opportunities.
 
-    ### 💡 Business Recommendations
+    ###  Business Recommendations
 
     10. Introducing **half-day test drive schemes** can help build customer confidence
         and improve conversion rates.
     11. Offering **annual car maintenance packages** with a small upfront fee can
         attract customers and build long-term relationships.
 
-    ### 🚀 Final Note
+    ###  Final Note
 
     Incorporating both **quantitative metrics and qualitative factors** enables
     smarter pricing, better inventory planning, and higher customer satisfaction
     in the used car ecosystem.
     """)
 
-st.success("✔ actionable insights generated.")
+st.success(" actionable insights generated.")
+
 
 
 
